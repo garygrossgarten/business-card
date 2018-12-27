@@ -15,22 +15,19 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('               Tierney Cyren'),
-  handle: chalk.white('bitandbang'),
-  work: chalk.white('Senior Cloud Developer Advocate at Microsoft'),
-  opensource: chalk.white('Node.js Community Committee ') + chalk.green('⬢'),
-  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('bitandbang'),
-  npm: chalk.gray('https://npmjs.com/') + chalk.red('~bnb'),
-  github: chalk.gray('https://github.com/') + chalk.green('bnb'),
-  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('bitandbang'),
-  web: chalk.cyan('https://bnb.im'),
-  npx: chalk.red('npx') + ' ' + chalk.white('bitandbang'),
+  name: chalk.white('               Gary Großgarten'),
+  handle: chalk.white('garygrossgarten'),
+  work: chalk.white('🍕 Software Developer Freelancer 🚀'),
+  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('garygrossgarten'),
+  npm: chalk.gray('https://npmjs.com/') + chalk.red('garygrossgarten'),
+  github: chalk.gray('https://github.com/') + chalk.green('garygrossgarten'),
+  web: chalk.cyan('https://garygrossgarten.de'),
+  npx: chalk.red('npx') + ' ' + chalk.white('@garygrossgarten/me'),
   labelWork: chalk.white.bold('       Work:'),
   labelOpenSource: chalk.white.bold('Open Source:'),
   labelTwitter: chalk.white.bold('    Twitter:'),
   labelnpm: chalk.white.bold('        npm:'),
   labelGitHub: chalk.white.bold('     GitHub:'),
-  labelLinkedIn: chalk.white.bold('   LinkedIn:'),
   labelWeb: chalk.white.bold('        Web:'),
   labelCard: chalk.white.bold('       Card:')
 }
@@ -51,11 +48,9 @@ const carding = `${data.labelCard}  ${data.npx}`
 const output = heading + // data.name + data.handle
                newline + newline + // Add one whole blank line
                working + newline + // data.labelWork + data.work
-               opensourcing + newline + newline + // data.labelOpenSource + data.opensource
                twittering + newline + // data.labelTwitter + data.twitter
                npming + newline + // data.labelnpm + data.npm
                githubing + newline + // data.labelGitHub + data.github
-               linkedining + newline + // data.labelLinkedIn + data.linkedin
                webing + newline + newline + // data.labelWeb + data.web
                carding // data.labelCard + data.npx
 
