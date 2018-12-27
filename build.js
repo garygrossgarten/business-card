@@ -8,8 +8,8 @@ const path = require('path')
 
 // Define options for Boxen
 const options = {
-  padding: 1,
-  margin: 1,
+  padding: 2,
+  margin: 2,
   borderStyle: 'round'
 }
 
@@ -17,10 +17,10 @@ const options = {
 const data = {
   name: chalk.white('               Gary Großgarten'),
   handle: chalk.white('garygrossgarten'),
-  work: chalk.white('🍕 Software Developer Freelancer 🚀'),
-  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('garygrossgarten'),
-  npm: chalk.gray('https://npmjs.com/') + chalk.red('garygrossgarten'),
-  github: chalk.gray('https://github.com/') + chalk.green('garygrossgarten'),
+  work: chalk.white('Software Developer Freelancer'),
+  twitter: chalk.gray('https://twitter.com/') + chalk.white('garygrossgarten'),
+  npm: chalk.gray('https://npmjs.com/') + chalk.white('garygrossgarten'),
+  github: chalk.gray('https://github.com/') + chalk.white('garygrossgarten'),
   web: chalk.cyan('https://garygrossgarten.de'),
   npx: chalk.red('npx') + ' ' + chalk.white('@garygrossgarten/me'),
   labelWork: chalk.white.bold('       Work:'),
@@ -36,11 +36,9 @@ const data = {
 const newline = '\n'
 const heading = `${data.name} / ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
-const opensourcing = `${data.labelOpenSource}  ${data.opensource}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
 const npming = `${data.labelnpm}  ${data.npm}`
 const githubing = `${data.labelGitHub}  ${data.github}`
-const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 const webing = `${data.labelWeb}  ${data.web}`
 const carding = `${data.labelCard}  ${data.npx}`
 
@@ -54,4 +52,4 @@ const output = heading + // data.name + data.handle
                webing + newline + newline + // data.labelWeb + data.web
                carding // data.labelCard + data.npx
 
-fs.writeFileSync(path.join(__dirname, 'bin/output'), chalk.green(boxen(output, options)))
+fs.writeFileSync(path.join(__dirname, 'bin/output'), chalk.white(boxen(output, options)))
