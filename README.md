@@ -1,5 +1,5 @@
 # Usage
 Via npx:
 ```
-npx bitandbang
+npx @garygrossgarten/me
 ```
