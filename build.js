@@ -11,7 +11,7 @@ const terminalLink = require('terminal-link');
 const data = {
   name: `┌─┐┌─┐┬─┐┬ ┬┌─┐┬─┐┌─┐┌─┐┌─┐┌─┐┌─┐┬─┐┌┬┐┌─┐┌┐┌\n│ ┬├─┤├┬┘└┬┘│ ┬├┬┘│ │└─┐└─┐│ ┬├─┤├┬┘ │ ├┤ │││\n└─┘┴ ┴┴└─ ┴ └─┘┴└─└─┘└─┘└─┘└─┘┴ ┴┴└─ ┴ └─┘┘└┘`,
   handle: 'garygrossgarten',
-  work: 'Software Developer',
+  work: 'Software Developer Freelancer',
   web: 'https://garygrossgarten.de',
   twitter: 'https://twitter.com/garygrossgarten',
   GitHub: 'https://github.com/garygrossgarten',
