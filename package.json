@@ -35,5 +35,10 @@
     "boxen": "^2.1.0",
     "chalk": "^2.4.1",
     "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "figlet": "^1.2.1",
+    "terminal-image": "^0.1.2",
+    "terminal-link": "^1.2.0"
   }
 }
