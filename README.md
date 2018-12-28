@@ -1,3 +1,6 @@
+![](card.gif)
+
+
 # Usage
 Via npx:
 ```

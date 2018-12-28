@@ -1,6 +1,6 @@
 {
   "name": "@garygrossgarten/me",
-  "version": "1.0.7",
+  "version": "1.0.7
   "description": "Business Card for Gary Großgarten",
   "main": "/bin/card.js",
   "bin": {
